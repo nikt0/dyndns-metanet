@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 from requests import session
 from bs4 import BeautifulSoup as BS
 import os.path
