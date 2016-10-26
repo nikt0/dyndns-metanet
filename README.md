@@ -11,7 +11,7 @@ To run it in a regular basis - create a cron job
 
 1. Account for DNS hosting: Metanet DNS Cloud (up to 5 zones free of charge)
 
-	`(https://www.metanet.ch/email-domains/dns-hosting)`
+	https://www.metanet.ch/email-domains/dns-hosting
 
 1. Update the script with you login data:
 
