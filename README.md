@@ -15,3 +15,5 @@ What you need to get it working:
 	ZONE_NAME='bbb.com' <-- zone name set up on DNS Cloud
 	SUBDOMAIN='dyn-ip.bbb.com' <-- subdomain set up on DNS Cloud for which ip address will be updated
 4. The script will create a local file in the same directory where this script resides: lastip.txt . It contains last ip address was used to update the record. If the ip address didn't change since last update, the dns record update won't be triggered.
+
+
