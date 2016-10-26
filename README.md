@@ -4,10 +4,11 @@ To run it in a regular basis - create a cron job
 
 #What you need to get it working:
 
-1. Python packages needed:
+1. Python modules needed:
 
   * requests: `$ pip install requests`
   * BeautifulSoup: `$pip install beautifulsoup4`
+  * re #Regular Expression 
 
 1. Account for DNS hosting: Metanet DNS Cloud (up to 5 zones free of charge)
 
