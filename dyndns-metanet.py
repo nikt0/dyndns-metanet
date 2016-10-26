@@ -3,14 +3,15 @@ from bs4 import BeautifulSoup as BS
 import os.path
 import re
 ############# DATA TO CHANGE ##############
+# DNS Cloud login data
 LOGIN_DATA = {
     'action': 'login',
     'username': '<METANET-USERNAME>',
     'password': '<METANET-PASSWORD>'
 }
 #NEW_IP='2.10.10.10'
-ZONE_NAME='bbb.com'
-SUBDOMAIN='abc.bbb.com' # Subdomain to update the ip address for
+ZONE_NAME='bbb.com' # DNS zone, which contains subdomain record to be updated
+SUBDOMAIN='dyn-ip.bbb.com' # Subdomain record to update the ip address for
 
 ########## END DATA TO CHANGE ############
 
