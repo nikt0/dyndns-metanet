@@ -5,8 +5,9 @@ To run it in a regular basis - create a cron job
 #What you need to get it working:
 
 1. Python packages needed:
-	..* requests: `$ pip install requests`
-	..* BeautifulSoup: `$pip install beautifulsoup4`
+
+..* requests: `$ pip install requests`
+..* BeautifulSoup: `$pip install beautifulsoup4`
 
 1. Account for DNS hosting: Metanet DNS Cloud (up to 5 zones free of charge)
 	`https://www.metanet.ch/email-domains/dns-hosting`
