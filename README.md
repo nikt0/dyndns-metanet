@@ -19,6 +19,7 @@ To run it in a regular basis - create a cron job
    LOGIN_DATA = {
    'action': 'login',
    'username': 'Your-METANET-USERNAME',
+   'password': 'Your-METANET-PASSWORD'
    }
    ```
 
