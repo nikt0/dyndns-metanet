@@ -9,7 +9,7 @@ To run it in a regular basis - create a cron job
 
 1. Update the script with you login data:
 
-`	LOGIN_DATA = {
+	`LOGIN_DATA = {
 	  'action': 'login',
 	  'username': 'Your-METANET-USERNAME',
 	  'password': 'Your-METANET-PASSWORD'
