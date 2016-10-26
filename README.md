@@ -14,13 +14,13 @@ To run it in a regular basis - create a cron job
 	https://www.metanet.ch/email-domains/dns-hosting
 
 1. Update the script with you login data:
-
-	`LOGIN_DATA = {
+```python
+	LOGIN_DATA = {
 	  'action': 'login',
 	  'username': **'Your-METANET-USERNAME'**,
 	  'password': **'Your-METANET-PASSWORD'**
-	}`
-
+	}
+```
 1. Define zone name and subdomain the ip address has to be update for:
 	
 	`ZONE_NAME='bbb.com' <-- zone name set up on DNS Cloud`
