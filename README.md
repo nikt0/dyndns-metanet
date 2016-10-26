@@ -32,4 +32,4 @@ To run it in a regular basis - create a cron job
 
 1. The script will create a local file in the same directory where this script resides: lastip.txt . It contains last ip address was used to update the record. If the ip address didn't change since last update, the dns record update won't be triggered.
 
-
+> PS: I know it's not a perfect code. You can make your suggestions.
