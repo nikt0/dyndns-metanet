@@ -1,6 +1,6 @@
 # dyndns-metanet
-This script updates a DNS A record for subdomain.
-To run it in a regular basis - create a cron job
+This script updates a DNS A record for a subdomain set up on Metanet DNS Hosting. Useful to automaticaly update dynamic ip for a dns record.
+To run it in a regular basis - create a cron job.
 
 #What you need to get it working:
 
