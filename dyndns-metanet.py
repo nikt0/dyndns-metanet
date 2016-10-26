@@ -2,16 +2,18 @@ from requests import session
 from bs4 import BeautifulSoup as BS
 import os.path
 import re
-
+############# DATA TO CHANGE ##############
 LOGIN_DATA = {
     'action': 'login',
     'username': '<METANET-USERNAME>',
     'password': '<METANET-PASSWORD>'
 }
-
 #NEW_IP='2.10.10.10'
 ZONE_NAME='bbb.com'
-SUBDOMAIN='abc.bbb.com'
+SUBDOMAIN='abc.bbb.com' # Subdomain to update the ip address for
+
+########## END DATA TO CHANGE ############
+
 SUB_SHORT=SUBDOMAIN[0:SUBDOMAIN.find(ZONE_NAME)-1]
 DOMAIN_ID_REGEX='.*domain_id=([0-9]+).+rr_id=([0-9]+).*(vpn\.domain\.com).*'
 SUBDOMAIN_ID_REGEX='.*<a\shref=content\.php\?screen=zone\/zone_edit&domain_id=([0-9]+)&.?rr_id=([0-9]+).*Click\sto\sdisabled\sit\..+(vpn\.digisec\.ch)\.<\/td>'
